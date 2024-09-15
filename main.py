@@ -21,8 +21,9 @@ class Digital_Clock(QWidget):
         self.timer.timeout.connect(self.update_time)
         
         self.timer_label = QLabel("12:00:00 AM", self)
+        self.timer_label.setGeometry(0, 0, 850, 200)
         self.timer_label.setAlignment(Qt.AlignCenter)
-        self.timer_label.setStyleSheet( 'font-size: 190px;'
+        self.timer_label.setStyleSheet( 'font-size: 170px;'
                                         'color: white;')
         self.timer_label.setFont(my_font)
         
