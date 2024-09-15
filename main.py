@@ -14,7 +14,7 @@ class Digital_Clock(QWidget):
 
         font_id = QFontDatabase.addApplicationFont('DS-DIGII.ttf')
         font_family = QFontDatabase.applicationFontFamilies(font_id)[0]
-        my_font = QFont(fant_family, 160)
+        my_font = QFont(font_family, 160)
 
         
         self.timer = QTimer(self)
