@@ -13,7 +13,7 @@ class Digital_Clock(QWidget):
         self.setGeometry(550, 250, 850, 200)
 
         font_id = QFontDatabase.addApplicationFont('DS-DIGII.ttf')
-        fant_family = QFontDatabase.applicationFontFamilies(font_id)[0]
+        font_family = QFontDatabase.applicationFontFamilies(font_id)[0]
         my_font = QFont(fant_family, 160)
 
         
